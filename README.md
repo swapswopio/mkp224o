@@ -3,7 +3,7 @@ Tor v3 Vanity Addresses Generator
 
 To generate private keys, launch the docker container:
 
-`docker run -tid -v `pwd`/tor:/root/tor swapswopio/mkp224o:latest ./mkp224o -d /root/tor/ -n 2 -B addrss`
+``docker run -tid -v `pwd`/tor:/root/tor swapswopio/mkp224o:latest ./mkp224o -d /root/tor/ -n 2 -B addrss``
 
 
 ## ./mkp224o -h
